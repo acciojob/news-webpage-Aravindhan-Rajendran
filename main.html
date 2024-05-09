@@ -11,7 +11,7 @@ header{
 	background-color:#011e29;
 }
 body{
-	background-color:#f5f5f5;
+	background-color:brown;
 }
 .header{
 	color:white;
@@ -21,7 +21,8 @@ body{
 	padding-bottom:10px;
 }
 .contain{
-	dispaly:flex;
+	display: flex;
+	justify-content:space-between;
 }
 .latest-news-section{
 	width:240px;
@@ -34,7 +35,7 @@ body{
 	padding-top:40px;
 }
 .main{
-	width:300px;
+	width:500px;
 	height:300px;
 	background-color:white;
 	border-radius:30px;
@@ -45,12 +46,12 @@ body{
 }
 .pictorial-news-section{
 	width:300px;
-	height:300px;
+	height:740px;
 	background-color:white;
 	border-radius:30px;
+	text-align:center;
 }
 .pic{
-	text-align:center;
 	padding-top:40px;
 }
 </style>
@@ -62,7 +63,7 @@ body{
 	<div class="contain">
 		<div class="latest-news-section">
 			<h3 class="head">Latest News Articles</h3>
-			<ul>
+			<ul class="latest-news-section">
 				<li>Article 1</li>
 				<li>Article 2</li>
 				<li>Article 3</li>
@@ -70,13 +71,13 @@ body{
 		</div>
 		<div class="main">
 			<h2 class="maine">Main Article</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p class="main">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 		</div>
 		<div class="pictorial-news-section">
 			<h3 class="pic">Pictorial News</h3>
-			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" style="width:300px;height:200px">
-			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" style="width:300px;height:200px">
-			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" style="width:300px;height:200px">
+			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" style="width:300px;height:200px" class="pictorial-news-section">
+			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" style="width:300px;height:200px" class="pictorial-news-section">
+			<img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" style="width:300px;height:200px" class="pictorial-news-section">
 		</div>
 		</div>
     <script type="text/javascript" src="./script.js">
